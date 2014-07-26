@@ -1,7 +1,7 @@
 /* Default Links */
 a {
     // Self, Active & Visited
-    & { color: $link-color; text-decoration: none; }
+    & { color: $black; text-decoration: none; }
 
     // Hover & Focus
     &:hover, &:focus { color: $link-hover-color; text-decoration: underline; }

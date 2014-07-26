@@ -50,12 +50,14 @@ global $rtp_general;
 							<?php rtp_hook_after_logo(); ?>
                                                         
 						</div>
-                <div class="anchor_tag"><a href="#">home</a>|<a  href="#">contact</a></div>
+                 <div class="detail">
+                <div class="anchor_tag"><a href="#">HOME</a> | <a  href="#">CONTACT US</a></div>
               
             <form method="get" id="searchform1" action="<?php bloginfo('home'); ?>/">
 <div><input type="text" size="18" value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s" />
 </div>
 </form>
+                 </div>
 				
 					<?php $header_class = get_header_image() ? ' rtp-header-wrapper-image' : ''; ?>
 					<?php $rtp_set_grid_class = apply_filters( 'rtp_set_full_width_grid_class', 'large-12 columns rtp-full-width-grid' ); ?>
