@@ -15,7 +15,7 @@ function rtp_remove_parent_hooks() {
     //remove_theme_support( 'custom-background' ); // Remove Bckground Option from Admin Menu
     //remove_theme_support( 'custom-header' ); // Remove Header Option from Admin Menu
     
-    //remove_action( 'rtp_hook_end_header', 'rtp_header_separator_border' );
+    remove_action( 'rtp_hook_end_header', 'rtp_header_separator_border' );
     
     //remove_action( 'rtp_hook_single_pagination', 'rtp_default_single_pagination' );
     //remove_action( 'rtp_hook_archive_pagination', 'rtp_default_archive_pagination' );
@@ -27,7 +27,7 @@ function rtp_remove_parent_hooks() {
     //remove_action( 'rtp_hook_begin_post_meta_top', 'rtp_edit_link' );
     //remove_action( 'rtp_hook_comments', 'rtp_default_comments' );
     //remove_action( 'rtp_hook_begin_content', 'rtp_breadcrumb_support' ); // Remove breadcrumb
-    //remove_action( 'rtp_hook_after_content_wrapper', 'rtp_footer_separator_border' ); // Remove Footer Separator
+    remove_action( 'rtp_hook_after_content_wrapper', 'rtp_footer_separator_border' ); // Remove Footer Separator
     //remove_action( 'rtp_hook_sidebar_content', 'rtp_sidebar_content' ); // Remove Default sidebar text
     
     //remove_filter( 'rtp_readmore', 'rtp_readmore_braces' );

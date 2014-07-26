@@ -2,15 +2,16 @@
 $background-menu: $navigation-bg;
 $submenu-bg: $white;
 $submenu-width: 240px;
+$active:#C8A551;
 $submenu-link-color: $sub-nav-color;
 
 $menu-full-bg: true;
 $menu-separator: true;
 
-$menu-height: 45px;
+$menu-height: 20px;
 $menu-font-size: rem-calc(14);
 
-$menu-spacing: rem-calc(12 30);
+$menu-spacing: rem-calc(10 12);
 
 // Mixins
 @mixin rtp-bg-color( $bg: $background-menu ) {
@@ -18,7 +19,7 @@ $menu-spacing: rem-calc(12 30);
 }
 
 @mixin rtp-active-menu($color: $link-color) {
-    background-color: $white; color: $color;
+    background-color: $active; color: $white;
 }
 
 @mixin rtp-menu-separator() {
@@ -28,7 +29,7 @@ $menu-spacing: rem-calc(12 30);
 
 /* Navigation */
 .rtp-nav-wrapper {
-	@include rtp-bg-color(); clear: both; min-height: $menu-height; margin-bottom: rem-calc(30); position: relative;
+	@include rtp-bg-color(); clear: both; min-height: $menu-height; margin-bottom: 0 auto; position: relative;
 	@if $menu-full-bg {
 		&:before, &:after { content: ' '; position: absolute; background: $background-menu; top: 0;  bottom: 0; width: rem-calc(9999); } 
 		&:before { right: 100%; }
@@ -49,21 +50,10 @@ $menu-spacing: rem-calc(12 30);
 	}
 
 	// Main Menu Separator
-	@if $menu-separator {
-
-		& > li {
-
-			&:first-child { border-left: 1px solid rgba(255, 255, 255, 0.11); box-shadow: -1px 0 0 rgba(0, 0, 0, 0.1); }
-
-			& > a {
-				@include rtp-menu-separator();
-			}
-		}
-	}
-
+	
 	// Navigation Links
 	a { 
-		color: $white; font-size: $menu-font-size; display: block; height: auto; line-height: 1.5; padding: $menu-spacing; text-decoration: none; word-wrap: break-word;
+		color: $black; font-size: $menu-font-size; display: block; height: auto; line-height: 1.5; padding: $menu-spacing; text-decoration: none; word-wrap: break-word;
 
 		// Hover
 		&:hover { @include rtp-active-menu(); }
@@ -92,4 +82,5 @@ $menu-spacing: rem-calc(12 30);
 		& > a { @include rtp-active-menu(); }
 	}
 }
+.rtp-primary-menu{background-color:$background-menu ;}
 /* End - Navigation */

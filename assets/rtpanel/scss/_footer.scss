@@ -5,11 +5,19 @@
 }
 
 /* Copyrights */
-#footer { 
+#footer { display: none;
 	color: $gray; text-align: center; // Self
 	// Footer Links
-	a { border-bottom: 1px solid $border-color; // Self
+	a { color:$black;border-bottom: 1px solid $border-color; // Self
 		&:hover { text-decoration: none; }
 	}
 }
+.footer_img{ margin: 35px 0 0 0;}
+
+#footer-wrapper .widgettitle{border-bottom: 1px #333 solid;}
+#rtp-footer-widgets-wrapper {background-color: #E6C36F;}
+#footer-wrapper{background-color: #E6C36F;}
+.disclaimer{background-color: #947E4C;}
+.disclaimer p{font-size: 12px; margin:0px 30px 0 30px;}
+#footer .widget footerbar-widget large-4 columns widget_iclw a{color: $black;}
 /* End - Footer */
