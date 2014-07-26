@@ -5,7 +5,7 @@
 }
 i
 /* Copyrights */
-#footer { display: none;
+#footer { 
 	color: $gray; text-align: center; // Self
 	// Footer Links
 	a { border-bottom: 1px solid $border-color; // Self
@@ -18,4 +18,5 @@ i
 #footer-wrapper{background-color: #E6C36F;}
 .disclaimer{background-color: #947E4C;}
 .disclaimer p{font-size: 12px; margin:0px 30px 0 30px;}
+#footer .rtp-footer rtp-section-container row{display: none ; }
 /* End - Footer */

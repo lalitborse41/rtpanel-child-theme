@@ -35,11 +35,12 @@ get_header(); ?>
                         
                         <div class="post-content clearfix">
                             <?php rtp_hook_begin_post_content(); ?>
+                           <?php add_action ( "rtp_hook_begin_content_wrapper", "rtp_call_slider", 1, 0 );?>
                             
 <?php $args = array( 'post_type' => 'custom-post', 'posts_per_page' => 10 );
 $loop = new WP_Query( $args );
 while ( $loop->have_posts() ) : $loop->the_post();
-	
+
         the_post_thumbnail();
 	echo '<div class="entry-content">';
 	the_content();

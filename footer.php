@@ -50,7 +50,7 @@ if ( $rtp_general[ 'footer_sidebar' ] ) {
 </footer>
 
 
-<?php rtp_hook_end_footer(); ?>
+
 <!-- #footer-wrapper-->
 <div class="disclaimer"><p>Disclaimer:Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna sed diam voluptua.At ver. At duo dolores rebum. </br>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p> </div>
 
