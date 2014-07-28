@@ -6,28 +6,28 @@
  */
 
 /** 
- * Registers Custom Post Types
+ * Registers Glimpse Post Types
  * 
  * @since rtPanelChild 1.0
  */
 function rtp_create_post_types() {
     
-    /* Custom Posts */
+    /* Glimpse Posts */
     register_post_type( 'custom-post', array(
         'labels' => array(
-        'name' => _x('Custom Posts', 'post type general name', 'rtPanel'),
-        'singular_name' => _x('Custom Post', 'post type singular name', 'rtPanel'),
-        'add_new' => _x('Add New', 'custom post', 'rtPanel'),
-        'add_new_item' => __('Add New Custom Post', 'rtPanel'),
-        'edit_item' => __('Edit Custom Post', 'rtPanel'),
-        'new_item' => __('New Custom Post', 'rtPanel'),
-        'view_item' => __('View Custom Post', 'rtPanel'),
-        'search_items' => __('Search Custom Posts', 'rtPanel'),
-        'not_found' => __('No custom posts found.', 'rtPanel'),
-        'not_found_in_trash' => __('No custom posts found in Trash.', 'rtPanel'),
-        'parent_item_colon' => array( null, __('Parent Custom Post:', 'rtPanel') ),
-        'all_items' => __( 'All Custom Posts', 'rtPanel' ) ),
-        'description' => __( 'Custom Posts', 'rtPanel' ),
+        'name' => _x('Glimpse Posts', 'post type general name', 'rtPanel'),
+        'singular_name' => _x('Glimpse Post', 'post type singular name', 'rtPanel'),
+        'add_new' => _x('Add New', 'Glimpse post', 'rtPanel'),
+        'add_new_item' => __('Add New Glimpse Post', 'rtPanel'),
+        'edit_item' => __('Edit Glimpse Post', 'rtPanel'),
+        'new_item' => __('New Glimpse Post', 'rtPanel'),
+        'view_item' => __('View Glimpse Post', 'rtPanel'),
+        'search_items' => __('Search Glimpse Posts', 'rtPanel'),
+        'not_found' => __('No Glimpse posts found.', 'rtPanel'),
+        'not_found_in_trash' => __('No Glimpse posts found in Trash.', 'rtPanel'),
+        'parent_item_colon' => array( null, __('Parent Glimpse Post:', 'rtPanel') ),
+        'all_items' => __( 'All Glimpse Posts', 'rtPanel' ) ),
+        'description' => __( 'Glimpse Posts', 'rtPanel' ),
         'publicly_queryable' => null, 
         'exclude_from_search' => null,
         'capability_type' => 'post', 

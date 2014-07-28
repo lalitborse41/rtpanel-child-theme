@@ -14,9 +14,11 @@ i
 }
 .footer_img{ margin: 35px 0 0 0;}
 #footer-wrapper .widgettitle{border-bottom: 1px #333 solid;}
-#rtp-footer-widgets-wrapper {background-color: #E6C36F;}
-#footer-wrapper{background-color: #E6C36F;}
+#rtp-footer-widgets-wrapper {background-color: #E6C36F;width: 981px; margin: 0 auto;}
+#footer-wrapper{ background-color: #E6C36F;}
+#footer-wrapper a{font-size: 14px; font-weight: normal;}
 .disclaimer{background-color: #947E4C;}
-.disclaimer p{font-size: 12px; margin:0px 30px 0 30px;}
+.disclaimer p{font-size: 12px; width: 981px; margin: 0 auto;}
 #footer .rtp-footer rtp-section-container row{display: none ; }
+.rt-copyrights p{position: absolute; margin: 2rem -1rem ;}
 /* End - Footer */

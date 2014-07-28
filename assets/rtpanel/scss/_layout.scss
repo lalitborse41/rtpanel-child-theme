@@ -5,4 +5,20 @@
 
 // This is fallback use color if background color set through backend settings.
 .rtp-section-container { background: $white; }
-#post-2 img{float: left; margin: 0 1rem 0 1rem; border: 4px #CBC4B4 solid;}
+.custom img{float: left; margin: 0 1rem 0 1rem; border: 4px #CBC4B4 solid;}
+.rtp-orbit-slider-row{width: 981px;margin: 0 auto;}
+.orbit-container{width: 681px;}
+#content-wrapper{ background: $white;}
+#content h3{background-color: #F4EEDE;}
+
+#content_sidebar #latest_tweets_widget-2{width: 275px; float: left; border-right: 1px #333 solid;}
+.tweet-text {font-size: 14px;}
+.tweet-details{display: none;}
+#latest_tweets_widget-2 .latest-tweets{list-style-type: none;}
+#fbfanbox_widget_class-2 .widget-title{background-color: #F4EEDE; }
+#fbfanbox_widget_class-2 .widget-title h3{margin: 0 10px 0 0 ;}
+#content_sidebar .fb_iframe_widget{margin: 0 -40px 0 25px;}
+#sidebar h2{margin: -3rem 0 0 0; position: absolute;background-color: #F4EEDE; }
+
+.date-time .date{position: absolute;margin: 2rem 0 0 0; font-size: 20px}
+.date-time .time{position: absolute;margin: 5rem 0 0 0; font-size: 42px;}

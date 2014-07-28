@@ -29,7 +29,7 @@ if ( ! ( $sidebar_id && dynamic_sidebar( $sidebar_id ) ) ) {
 	// Default Widgets Content
 	rtp_hook_sidebar_content();
 } ?>
-            
+            <h2>Date and time</h2>
             <?php rtp_hook_end_sidebar(); ?>
         </div>
     </aside>
